@@ -1,0 +1,4 @@
+clear @s knowledge_book
+recipe take @s god_gamers:boots_of_luna
+advancement revoke @s only god_gamers:crafting/boots_of_luna
+give @s minecraft:netherite_boots{display:{Name:'[{"text":"Boots of Luna","italic":false,"bold":true,"color":"light_purple"}]',Lore:['[{"text":"Moon\'s Blessing","italic":false,"color":"aqua"}]']},Enchantments:[{id:"feather_falling",lvl:100},{id:"frost_walker",lvl:1},{id:"protection",lvl:4}],Unbreakable:1,HideFlags:1,AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0.2,Operation:1,UUID:[I;-120826,7778,16143,-15556],Slot:feet,Name:"Lunar Rush"},{AttributeName:"generic.max_health",Amount:10,Operation:0,UUID:[I;-120826,7778,16143,-15556],Slot:feet,Name:"Lunar Shield"}]}

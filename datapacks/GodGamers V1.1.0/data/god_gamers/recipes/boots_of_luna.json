@@ -1,0 +1,24 @@
+
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+    "   ",
+    " 1 ",
+    "$#$"
+    ],
+    "key": {
+    "1": {
+        "item": "minecraft:netherite_boots"
+    },
+    "#": {
+        "item": "minecraft:nether_star"
+    },
+    "$": {
+        "item": "minecraft:soul_soil"
+    }
+    },
+    "result": {
+    "item": "minecraft:knowledge_book",
+    "count": 1
+    }
+}

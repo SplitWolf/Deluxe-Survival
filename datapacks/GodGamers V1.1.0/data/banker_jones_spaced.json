@@ -1,0 +1,175 @@
+summon villager ~ ~1 ~ 
+{
+	Invulnerable: 1, 
+	NoAI: 1, 
+	Silent: 1,
+	VillagerData: {
+	profession:librarian,
+	level: 5,
+	type:jungle
+	},
+	CustomName:'[
+		{
+			"text": "Banker Jones"
+		}
+	]',
+	Offers: {Recipes: [
+			{buy: {id:diamond,Count: 1
+				},sell: {id:gold_nugget,Count: 1,tag: {display: {Name:'{
+								"text": "Chii",
+								"color": "green",
+								"bold": true,
+								"italic": false
+							}',Lore: ['{
+									"text": "You feel a tad richer",
+									"color": "white",
+									"italic": true
+								}'
+							]
+						},CustomModelData: 110001,chii: 1b
+					}
+				},rewardExp: 0b,maxUses: 9999999
+			},
+			{buy: {id:gold_nugget,Count: 1,tag: {display: {Name:'{
+								"text": "Chii",
+								"color": "green",
+								"bold": true,
+								"italic": false
+							}',Lore: ['{
+									"text": "You feel a tad richer",
+									"color": "white",
+									"italic": true
+								}'
+							]
+						},CustomModelData: 110001,chii: 1b
+					}
+				},
+				sell: {id:diamond,	Count: 1
+				},
+				rewardExp: 0b,
+				maxUses: 9999999
+			},
+			{buy: {id:gold_nugget,Count: 10,tag: {display: {Name:'{
+								"text": "Chii",
+								"color": "green",
+								"bold": true,
+								"italic": false
+							}',
+							Lore: ['{
+									"text": "You feel a tad richer",
+									"color": "white",
+									"italic": true
+								}'
+							]
+						},CustomModelData: 110001,chii: 1b
+					}
+				},
+				sell: {id:gold_nugget,Count: 1,tag: {display: {Name:'{
+								"text": "Chiirio",
+								"color": "red",
+								"bold": true,
+								"italic": false
+							}',
+							Lore: ['{
+									"text": "You feel more prosperous",
+									"color": "aqua",
+									"italic": true
+								}'
+							]
+						},
+						CustomModelData: 110002,
+						chiirio: 1b
+					}
+				},
+				rewardExp: 0b,
+				maxUses: 9999999
+			},
+			{buy: {id:gold_nugget,Count: 1,tag: {display: {Name:'{
+								"text": "Chiirio",
+								"color": "red",
+								"bold": true,
+								"italic": false
+							}',	Lore: ['{
+									"text": "You feel more prosperous",
+									"color": "aqua",
+									"italic": true
+								}'
+							]
+						},CustomModelData: 110002,chiirio: 1b
+					}
+				},
+				sell: {id:gold_nugget,Count: 10,tag: {display: {Name:'{
+								"text": "Chii",
+								"color": "green",
+								"bold": true,
+								"italic": false
+							}',
+							Lore: ['{
+									"text": "You feel a tad richer",
+									"color": "white",
+									"italic": true
+								}'
+							]
+						},CustomModelData: 110001,chii: 1b
+					}
+				},rewardExp: 0b,maxUses: 9999999
+			},
+			{buy: {id:gold_nugget,Count: 10,tag: {display: {Name:'{
+								"text": "Chiirio",
+								"color": "red",
+								"bold": true,
+								"italic": false
+							}',Lore: ['{
+									"text": "You feel more prosperous",
+									"color": "aqua",
+									"italic": true
+								}'
+							]
+						},CustomModelData: 110002,chiirio: 1b
+					}
+				},sell: {id:gold_nugget,Count: 1,tag: {display: {Name:'{
+								"text": "Chiiluxe",
+								"color": "light_purple",
+								"bold": true,
+								"italic": false
+							}',Lore: ['{
+									"text": "You feel robustly affluent",
+									"color": "dark_aqua",
+									"italic": true
+								}'
+							]
+						},CustomModelData: 110003,chiideluxe: 1b
+					}
+				}, rewardExp: 0b, maxUses: 9999999
+			},
+			{buy: {id:gold_nugget,Count: 1,tag: {display: {Name:'{
+								"text": "Chiiluxe",
+								"color": "light_purple",
+								"bold": true,
+								"italic": false
+							}',Lore: ['{
+									"text": "You feel robustly affluent",
+									"color": "dark_aqua",
+									"italic": true
+								}'
+							]
+						},CustomModelData: 110003,chiideluxe: 1b
+					}
+				},sell: {id:gold_nugget,Count: 10,tag: {display: {Name:'{
+								"text": "Chiirio",
+								"color": "red",
+								"bold": true,
+								"italic": false
+							}',Lore: ['{
+									"text": "You feel more prosperous",
+									"color": "aqua",
+									"italic": true
+								}'
+							]
+						},CustomModelData: 110002,chiirio: 1b
+					}
+				},rewardExp: 0b, maxUses: 9999999
+			}
+		]
+	}
+}
